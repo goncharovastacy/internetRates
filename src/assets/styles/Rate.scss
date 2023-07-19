@@ -1,0 +1,37 @@
+.rate-container{
+    max-width: 250px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    h3{
+        text-align: center;
+        color: rgb(233, 244, 244);
+        font-size: 25px;
+    }
+    span{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    p{
+        text-align: center;
+    }
+    .background{
+        padding: 10px 5px;
+        background-color: rgb(43, 133, 103);
+        p{
+            color: rgb(233, 244, 244);
+        }
+    }
+    .text{
+        padding: 10px 5px 0 5px;
+        border-top: 1px solid rgba(119, 119, 119, 0.69);
+        line-height: 30px;
+    }
+}
+
+.selected {
+    max-width: 270px;
+    box-shadow: 4px 4px 15px 1px rgb(121, 121, 121);
+    .background{
+        background-color: rgb(242, 98, 114);
+    }
+}
