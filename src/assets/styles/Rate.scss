@@ -1,5 +1,6 @@
 .rate-container{
     max-width: 250px;
+    height: 298px;
     margin-top: 10px;
     border: 1px solid rgba(0, 0, 0, 0.349);
     h3{
@@ -16,10 +17,21 @@
     }
     .background{
         padding: 10px 5px;
-        background-color: rgb(43, 133, 103);
         p{
             color: rgb(233, 244, 244);
         }
+    }
+    .blue{
+        background-color: rgb(132, 132, 247);
+    }
+    .green{
+        background-color: rgb(43, 133, 103);
+    }
+    .red{
+        background-color: rgb(246, 79, 104);
+    }
+    .black{
+        background-color: rgb(45, 45, 45);
     }
     .text{
         padding: 10px 5px 0 5px;
@@ -30,8 +42,6 @@
 
 .selected {
     max-width: 270px;
+    height: 305px;
     box-shadow: 4px 4px 15px 1px rgb(121, 121, 121);
-    .background{
-        background-color: rgb(242, 98, 114);
-    }
 }

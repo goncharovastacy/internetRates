@@ -10,6 +10,7 @@ function App() {
           <Rate rate={el.rate}
           price={el.price}
           speed={el.speed}
+          color={el.color}
           isSelected={el.isSelected}/>
         ))
       }
