@@ -6,12 +6,13 @@ function App() {
   return (
     <div className='container'>
       {
-        rates.map(el => (
-          <Rate rate={el.rate}
+        rates.map((el, i) => (
+          <Rate key={i}
+          rate={el.rate}
           price={el.price}
           speed={el.speed}
           color={el.color}
-          isSelected={el.isSelected}/>
+          />
         ))
       }
     </div>
