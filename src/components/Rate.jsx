@@ -7,9 +7,9 @@ function Rate(props) {
     const handleChange = () => {
         setPressed(!pressed);
     }    
-    let classSelceted = pressed ? 'selected': '';
+    let classSelected = pressed ? 'selected': '';
 return (
-        <div className={`rate-container ${classSelceted}`} onClick={handleChange}>
+        <div className={`rate-container ${classSelected}`} onClick={handleChange}>
             <div className={`background ${color}`}><h3>Безлимитный {rate}</h3>
             <p><span>{price}</span> руб/мес</p></div>
             <p>до {speed} Мбит/сек</p>
